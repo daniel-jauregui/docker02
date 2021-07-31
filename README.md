@@ -24,6 +24,8 @@
 
 7. Configured the my local nexusts but looks like I need license to upload own images:
 
+![image](https://user-images.githubusercontent.com/9829648/127730059-ced9266e-a233-47c1-9075-ae5f74128bfc.png)
+
 8. I used the Nexus 3 OSS on (10.24.48.191)
 
     `docker push 10.24.48.191:8082/ruleof3:daniel.jauregui`
