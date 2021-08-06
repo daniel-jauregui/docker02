@@ -1,14 +1,14 @@
-FROM python:3.8-slim-buster AS bulider
+FROM python:3.8-slim-buster AS builder
 
 WORKDIR /temp/app
 
-COPY . /temp/app
+COPY . .
 
 FROM python:3.8-slim-buster AS Prod
 
 WORKDIR /app
 
-COPY /temp/app/requirements.txt requirements.txt
+COPY --from=builder /tmp/app /app
 
 RUN pip3 install -r requirements.txt
 
