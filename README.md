@@ -50,4 +50,9 @@
 
 4. Enjoy!
 
+# Using docker compose
+
+1. Just execute the following command:
+
+    `docker-compose up -d`
 
